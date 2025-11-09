@@ -85,8 +85,6 @@ Lista todas as séries cadastradas, oferecendo **edição** e **exclusão** de i
 ---
 
 ## 📸 **Visual do projeto**
-
-### 🏠 Página Inicial (Home)
 ![Home](./picture/home.png)
 
 ---
