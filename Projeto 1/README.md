@@ -1,21 +1,21 @@
 # 🎬 Catálogo de Séries
 
-Projeto desenvolvido como parte da **Fase 1** da disciplina **Desenvolvimento Front-End** do curso de **Análise e Desenvolvimento de Sistemas – PUCRS**.
+Este projeto foi desenvolvido como parte da **Fase 1** da disciplina de **Desenvolvimento Front-End**, do curso de **Análise e Desenvolvimento de Sistemas da PUCRS**.
 
-O objetivo é criar uma aplicação **React** para **cadastrar, listar, editar e excluir séries**, com navegação entre páginas e componentização organizada.
+O objetivo é criar uma aplicação React para **cadastrar, listar, editar e excluir séries**, com navegação entre páginas e componentização adequada.
 
 ---
 
-## 🚀 Como executar o projeto
+## 🚀 **Como executar o projeto**
 
 ### 1️⃣ Pré-requisitos
-- Node.js instalado  
+- Node.js instalado
 - npm (gerenciador de pacotes)
 
 ### 2️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/catalogo-series.git
-cd catalogo-series
+git clone https://github.com/dionatanhc/desenvolvimento_de_sistemas_frontend.git
+cd desenvolvimento_de_sistemas_frontend
 ```
 
 ### 3️⃣ Instalar as dependências
@@ -28,69 +28,81 @@ npm install
 npm run dev
 ```
 
-Após executar o comando, abra o navegador no link exibido no terminal, normalmente:  
-👉 **http://localhost:5173**
+Após executar o comando, abra o navegador pelo link que aparecerá no terminal.  
+Normalmente: **http://localhost:5173**
 
 ---
 
-## 🧪 Execução de testes
+## 🧰 **Tecnologias Utilizadas**
 
-⚠️ Este projeto **não possui testes automatizados** nesta fase.  
-Os testes foram realizados **manualmente**, verificando:
+| Tecnologia | Finalidade |
+|-------------|-------------|
+| ⚛️ **React.js** | Biblioteca principal para criação de interfaces. |
+| ⚡ **Vite** | Ferramenta de build e ambiente de desenvolvimento rápido. |
+| 🧭 **React Router DOM** | Controle de rotas e navegação entre páginas. |
+| 🎨 **CSS3** | Estilização dos componentes e layout da aplicação. |
+| 🧱 **JavaScript (ES6+)** | Lógica, manipulação de estado e interatividade. |
+| 📁 **Node.js + npm** | Ambiente e gerenciador de pacotes para dependências. |
+
+---
+
+## 🧪 **Execução de testes**
+
+⚠️ Este projeto não possui testes automatizados implementados nesta fase.  
+Os testes foram realizados manualmente, navegando entre as páginas e validando as funcionalidades:
 
 - Cadastro de uma nova série  
 - Edição de uma série existente  
 - Exclusão de uma série  
-- Navegação entre as páginas **Home**, **Sobre**, **Cadastro** e **Listagem**
+- Navegação entre Home, Sobre, Cadastro e Listagem  
 
 ---
 
-## 🧩 Descrição dos componentes
+## 🧩 **Descrição dos componentes**
 
 ### 🧭 NavBar
-Barra de navegação superior da aplicação.  
-Contém links para as páginas **Início**, **Sobre**, **Cadastro** e **Listagem**.
+Barra de navegação superior da aplicação, com links para **Início**, **Sobre**, **Cadastro** e **Listagem**.
 
 ### 🏠 Home
-Página inicial que recepciona o usuário e orienta sobre o funcionamento do sistema.
+Página inicial que recepciona o usuário e orienta a navegação no sistema.
 
 ### ℹ️ Sobre
 Página informativa explicando o propósito do projeto e suas funcionalidades.
 
 ### 📝 SerieForm
-Formulário para cadastro de séries, com os seguintes campos obrigatórios:
-
+Formulário de cadastro de séries, com campos obrigatórios:
 - Título  
 - Número de Temporadas  
 - Data de Lançamento  
 - Diretor  
 - Produtora  
 - Categoria  
-- Data em que assistiu
+- Data em que assistiu  
 
 ### 📃 SerieList
-Exibe todas as séries cadastradas, com botões de **Editar** e **Excluir**.  
-A edição pode ser feita diretamente nos campos e confirmada com o botão **Salvar**.
+Lista todas as séries cadastradas, oferecendo **edição** e **exclusão** de itens.
 
 ---
 
-## 🧠 Decisões de desenvolvimento
+## 📸 **Visual do projeto**
 
-- Projeto criado com **Vite**, garantindo performance e simplicidade.  
-- Utilização do **React Router DOM** para gerenciar as rotas.  
-- Dados armazenados em **estado local (useState)**, conforme o escopo do projeto.  
-- Estrutura organizada em pastas dentro de `src/components`.  
-- Estilos criados em **NavBar.css** para uma navegação consistente.
+### 🏠 Página Inicial (Home)
+![Home](./picture/home.png)
 
 ---
 
-## 📸 Visual do projeto
+## 🧠 **Decisões de desenvolvimento**
 
-![Home](./picture/home.png)  
+- O projeto foi criado com **Vite** pela sua performance e simplicidade.  
+- **React Router DOM** foi utilizado para o gerenciamento de rotas.  
+- As séries são armazenadas em **estado local** (`useState`), atendendo ao requisito de manipulação estática.  
+- Estrutura de componentes organizada em `src/components` para melhor manutenção.  
+- O CSS da navegação foi criado separadamente (`NavBar.css`) para manter um layout limpo e consistente.
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 **Autor**
 
 **Dionatan Castro**  
-Estudante de **Análise e Desenvolvimento de Sistemas – PUCRS**
+🎓 Estudante de Análise e Desenvolvimento de Sistemas – PUCRS  
+💡 Desenvolvido para fins acadêmicos, com foco em boas práticas de desenvolvimento front-end.
