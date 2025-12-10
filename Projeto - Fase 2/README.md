@@ -93,35 +93,35 @@ npm run test
 
 # 🧩 Estrutura da aplicação
 
-📁 src/
+```bash
+src/
+├── components/
+│   ├── NavBar/
+│   │   ├── NavBar.css
+│   │   ├── NavBar.jsx
+│   │   └── NavBar.test.jsx
+│   │
+│   ├── SerieForm/
+│   │   ├── SerieForm.jsx
+│   │   └── SerieForm.test.jsx
+│   │
+│   └── SerieList/
+│       ├── SerieList.jsx
+│       └── SerieList.test.jsx
 │
-├── 📁 components/
-│ │
-│ ├──   📁 NavBar/
-│ │ ├──  NavBar.css
-│ │ ├──  NavBar.jsx
-│ │ └──  NavBar.test.jsx
-│ │
-│ ├──   📁 SerieForm/
-│ │ ├──  SerieForm.jsx
-│ │ └──  SerieForm.test.jsx
-│ │
-│ └──   📁 SerieList/
-│   ├──  SerieList.jsx
-│   └──  SerieList.test.jsx
+├── pages/
+│   ├── Home.jsx
+│   └── Sobre.jsx
 │
-├── 📁 pages/
-│ ├── Home.jsx
-│ └── Sobre.jsx
-│
-├── 📁 service/
-│ └── api.js
+├── service/
+│   └── api.js
 │
 ├── App.jsx
 ├── App.css
 ├── index.css
 ├── main.jsx
 └── setupTests.js
+```
 
 ------------------------------------------------------------------------
 
@@ -180,15 +180,15 @@ Funcionalidades: - Editar - Excluir - Navegar para cadastro
 
 # 🖼️ Imagens do projeto
 
-![Tela Inicial](./pictures/inicio.png)
+![Tela Inicial](pictures/inicio.png)
 
-![Sobre](./pictures/sobre.png)
+![Sobre](pictures/sobre.png)
 
-![Formulário de Cadastro](./pictures/cadastrar.png)
+![Formulário de Cadastro](pictures/cadastrar.png)
 
-![Listagem de Séries](./pictures/listagem.png)
+![Listagem de Séries](pictures/listagem.png)
 
-![Estrutura](./pictures/arquivos.png)
+![Estrutura](pictures/arquivos.png)
 
 ------------------------------------------------------------------------
 
