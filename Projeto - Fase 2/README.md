@@ -188,8 +188,6 @@ Funcionalidades: - Editar - Excluir - Navegar para cadastro
 
 ![Listagem de Séries](picture/listagem.png)
 
-![Estrutura](picture/arquivos.png)
-
 ------------------------------------------------------------------------
 
 # 👨‍💻 Autor
